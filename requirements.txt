@@ -4,3 +4,6 @@ streamlit
 pandas
 matplotlib
 scikit-learn
+torch
+torchvision
+pillow

@@ -1,5 +1,5 @@
 import cv2
-from road_segmenter import segment_road
+from road_segmenter_DeepLabv3 import segment_road
 cap = cv2.VideoCapture(
 "datasets/videos/test_video1.mp4"
 )
