@@ -41,10 +41,10 @@ def extract_road_mask(image_path):
     )
 
     # Debug view
-    cv2.imshow("Original", image)
-    cv2.imshow("Mask", road_mask)
+    #cv2.imshow("Original", image)
+    #cv2.imshow("Mask", road_mask)
 
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
 
     return road_mask

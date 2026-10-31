@@ -20,8 +20,8 @@ for x, y in left_points:
     cv2.circle(
         result,
         (x, y),
-        1,
-        (255, 0, 0),
+        4,
+        (0, 0, 255),
         -1
     )
 
@@ -29,8 +29,8 @@ for x, y in right_points:
     cv2.circle(
         result,
         (x, y),
-        1,
-        (0, 0, 255),
+        4,
+        (255, 0, 0),
         -1
     )
 
